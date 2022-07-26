@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<UseWindowsForms>true</UseWindowsForms>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>0.0.1</Version>
+		<Authors>Palink</Authors>
+		<Company>Palink</Company>
+		<Description>WPF扩展工具</Description>
+		<Copyright>copyright2022</Copyright>
+		<PackageIcon>profile.jpg</PackageIcon>
+		<PackageTags>wpf;tools</PackageTags>
+		<PackageReleaseNotes>wpf工具库发布</PackageReleaseNotes>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="ScreenExt\" />
+		<Folder Include="ControlExt\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\Palink.Tools\Palink.Tools.Core\profile.jpg">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
